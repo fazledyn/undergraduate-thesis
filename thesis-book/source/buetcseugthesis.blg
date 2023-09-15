@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: buetcseugthesis.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: acm.bst
+Database file #1: buetcseugthesis.bib
+You've used 14 entries,
+            2253 wiz_defined-function locations,
+            605 strings with 7515 characters,
+and the built_in function-call counts, 5465 in all, are:
+= -- 515
+> -- 250
+< -- 0
++ -- 101
+- -- 87
+* -- 385
+:= -- 833
+add.period$ -- 46
+call.type$ -- 14
+change.case$ -- 83
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 227
+empty$ -- 460
+format.name$ -- 87
+if$ -- 1199
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 10
+newline$ -- 77
+num.names$ -- 30
+pop$ -- 126
+preamble$ -- 1
+purify$ -- 69
+quote$ -- 0
+skip$ -- 164
+stack$ -- 0
+substring$ -- 320
+swap$ -- 84
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 0
+while$ -- 48
+width$ -- 16
+write$ -- 149

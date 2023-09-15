@@ -1,0 +1,107 @@
+\begin{thebibliography}{10}
+
+\bibitem{banglabert}
+{\sc Bhattacharjee, A., Hasan, T., Ahmad, W., Mubasshir, K.~S., Islam, M.~S.,
+  Iqbal, A., Rahman, M.~S., and Shahriyar, R.}
+\newblock {B}angla{BERT}: Language model pretraining and benchmarks for
+  low-resource language understanding evaluation in {B}angla.
+\newblock In {\em Findings of the Association for Computational Linguistics:
+  NAACL 2022\/} (Seattle, United States, July 2022), Association for
+  Computational Linguistics, pp.~1318--1327.
+
+\bibitem{hypescout}
+{\sc Fahim, K.~M.}
+\newblock {B}angladeshi {T}op {F}ood {V}loggers and {I}nfluencers ---
+  stories.hypescout.co.
+\newblock
+  \url{https://stories.hypescout.co/story/bangladeshi-top-food-vloggers-and-influencers-772c5c22}.
+\newblock [Accessed 20-May-2023].
+
+\bibitem{paper_freeman}
+{\sc Freeman, C., Roy, M.~K., Fattoruso, M., and Alhoori, H.}
+\newblock Shared feelings: Understanding facebook reactions to scholarly
+  articles.
+\newblock In {\em 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL)\/}
+  (2019), pp.~301--304.
+
+\bibitem{paper_zomato_amazon}
+{\sc Gite, S., Udanshiv, A., Date, R., Jaisinghani, K., Singh, A., and
+  Chetwani, P.}
+\newblock Sentiment analysis techniques on food reviews using machine learning.
+\newblock In {\em Proceedings of Second International Conference on Computing,
+  Communications, and Cyber-Security\/} (Singapore, 2021), P.~K. Singh, S.~T.
+  Wierzcho{\'{n}}, S.~Tanwar, M.~Ganzha, and J.~J. P.~C. Rodrigues, Eds.,
+  Springer Singapore, pp.~511--528.
+
+\bibitem{dataset_restaurant}
+{\sc Hossain, E.}
+\newblock {G}it{H}ub - eftekhar-hossain/{B}engali-{R}estaurant-{R}eviews:
+  {S}entiment {A}nalysis of {B}engali {R}estaurant {R}eviews. {A}
+  re-implemented version of the original paper. --- github.com.
+\newblock \url{https://github.com/eftekhar-hossain/Bengali-Restaurant-Reviews}.
+\newblock [Accessed 20-May-2023].
+
+\bibitem{paper_hate_speech}
+{\sc Ishmam, A.~M., and Sharmin, S.}
+\newblock Hateful speech detection in public facebook pages for the bengali
+  language.
+\newblock In {\em 2019 18th IEEE International Conference On Machine Learning
+  And Applications (ICMLA)\/} (2019), pp.~555--560.
+
+\bibitem{dataset_sentnob}
+{\sc Islam, K.~I., Kar, S., Islam, M.~S., and Amin, M.~R.}
+\newblock {S}ent{N}o{B}: A dataset for analysing sentiment on noisy {B}angla
+  texts.
+\newblock In {\em Findings of the Association for Computational Linguistics:
+  EMNLP 2021\/} (Punta Cana, Dominican Republic, Nov. 2021), Association for
+  Computational Linguistics, pp.~3265--3271.
+
+\bibitem{paper_yelp}
+{\sc Islam, N., Akter, N., and Sattar, A.}
+\newblock Sentiment analysis on food review using machine learning approach.
+\newblock In {\em 2021 International Conference on Artificial Intelligence and
+  Smart Systems (ICAIS)\/} (2021), pp.~157--164.
+
+\bibitem{datareportal2023}
+{\sc Kemp, S.}
+\newblock {D}igital 2023: {B}angladesh — {D}ata{R}eportal – {G}lobal
+  {D}igital {I}nsights --- datareportal.com.
+\newblock \url{https://datareportal.com/reports/digital-2023-bangladesh}.
+\newblock [Accessed 20-May-2023].
+
+\bibitem{paper_fans_emotions}
+{\sc Khan, M. S.~S., Rafa, S.~R., Abir, A. E.~H., and Das, A.~K.}
+\newblock Sentiment analysis on bengali facebook comments to predict fan’s
+  emotions towards a celebrity.
+\newblock {\em Journal of Engineering Advancements 2}, 03 (Jul. 2021),
+  118–124.
+
+\bibitem{fbnews}
+{\sc Lada, A.}
+\newblock {H}ow {D}oes {N}ews {F}eed {P}redict {W}hat {Y}ou {W}ant to {S}ee? |
+  {M}eta --- about.fb.com.
+\newblock
+  \url{https://about.fb.com/news/2021/01/how-does-news-feed-predict-what-you-want-to-see/}.
+\newblock [Accessed 20-May-2023].
+
+\bibitem{paper_pratama}
+{\sc Pratama, A.}
+\newblock Sentiment analysis of facebook posts through special reactions: The
+  case of learning from home in indonesia amid covid-19.
+\newblock {\em Jurnal Ilmiah Teknik Elektro Komputer dan Informatika 8\/} (03
+  2022), 83--92.
+
+\bibitem{dataset_absa}
+{\sc Rahman, M.~A., and Kumar~Dey, E.}
+\newblock Datasets for aspect-based sentiment analysis in bangla and its
+  baseline evaluation.
+\newblock {\em Data 3}, 2 (2018).
+
+\bibitem{paper_yelp_bn}
+{\sc Sharif, O., Hoque, M.~M., and Hossain, E.}
+\newblock Sentiment analysis of bengali texts on online restaurant reviews
+  using multinomial naïve bayes.
+\newblock In {\em 2019 1st International Conference on Advances in Science,
+  Engineering and Robotics Technology (ICASERT)\/} (2019), pp.~1--6.
+
+\end{thebibliography}

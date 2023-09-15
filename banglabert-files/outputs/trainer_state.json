@@ -1,0 +1,79 @@
+{
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 6.0,
+  "global_step": 1179,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "learning_rate": 7.4081055607917066e-06,
+      "loss": 0.8773,
+      "step": 393
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.7051691129546905,
+      "eval_f1": 0.6419101097194905,
+      "eval_loss": 0.7188476920127869,
+      "eval_precision": 0.6775423367855374,
+      "eval_recall": 0.6460429305982535,
+      "eval_runtime": 111.3268,
+      "eval_samples_per_second": 14.076,
+      "eval_steps_per_second": 0.88,
+      "step": 393
+    },
+    {
+      "epoch": 2.0,
+      "learning_rate": 3.7040527803958533e-06,
+      "loss": 0.656,
+      "step": 786
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.7351627313337588,
+      "eval_f1": 0.6828261185377381,
+      "eval_loss": 0.6569944024085999,
+      "eval_precision": 0.703755420226797,
+      "eval_recall": 0.6831551359831688,
+      "eval_runtime": 123.3074,
+      "eval_samples_per_second": 12.708,
+      "eval_steps_per_second": 0.795,
+      "step": 786
+    },
+    {
+      "epoch": 3.0,
+      "learning_rate": 0.0,
+      "loss": 0.5783,
+      "step": 1179
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.7440970006381621,
+      "eval_f1": 0.6995557513694072,
+      "eval_loss": 0.6402221918106079,
+      "eval_precision": 0.7128374207685689,
+      "eval_recall": 0.6984130006982796,
+      "eval_runtime": 118.985,
+      "eval_samples_per_second": 13.17,
+      "eval_steps_per_second": 0.824,
+      "step": 1179
+    },
+    {
+      "epoch": 3.0,
+      "step": 1179,
+      "total_flos": 878118934251258.0,
+      "train_loss": 0.7038717358874709,
+      "train_runtime": 9918.008,
+      "train_samples_per_second": 3.804,
+      "train_steps_per_second": 0.119
+    }
+  ],
+  "max_steps": 1179,
+  "num_train_epochs": 6,
+  "total_flos": 878118934251258.0,
+  "trial_name": null,
+  "trial_params": null
+}

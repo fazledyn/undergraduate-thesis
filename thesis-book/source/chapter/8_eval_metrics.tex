@@ -1,0 +1,24 @@
+\chapter{Evaluation Metrics}\label{eval_metrics}
+
+Since our entire Natural Language Processing method depends on the outcome of the BanglaBERT model, we had to train the model for sequence classification tasks and improve the evaluation metrics. To measure the performance of our model, we used several metrics such as accuracy, recall, precision, and F1 score.
+
+\subsubsection{Accuracy}
+The most popular criterion for measuring a model's performance is accuracy. The ratio of correctly identified data points to the total number of data points is accurate. Higher accuracy does not guarantee better overall performance because the dataset can be unbalanced. We can express precision in the following way:
+
+$$ Accuracy = \frac{TP + TN}{TP + TN + FP + FN} $$
+$$ TP = True Positive, FP = False Positive $$
+$$ TN = True Negative, FN = False Negative $$
+
+\subsubsection{Recall}
+The proportion of correctly identified positive data points to the total number of positive data points is known as recall. Sensitivity is another term for it. The efficiency with which a model classifies relevant data is measured by the recall. The following is how we can express recall:
+$$ Recall = \frac{TP}{TP + FN} $$
+
+\subsubsection{Precision}
+The ratio of accurately identified positive data points to the total number of positively classified data points is precision. It indicates a model's ability to predict positive samples. Precision takes precedence over accuracy. Precision can be expressed in the following way:
+$$ Precision = \frac{TP}{TP + FP} $$
+
+\subsubsection{F1 Score}
+For unbalanced datasets, the F1 score is useful. It discusses the trade-off between recall and precision. When precision equals recall, the F1-score reaches its maximum value. F1-score uses the harmonic mean of recall and precision rather than the arithmetic mean. The f1-score can be expressed as follows:
+$$ F1\ Score = \frac{2 \times Precision \times Recall}{Precision + Recall} $$
+
+

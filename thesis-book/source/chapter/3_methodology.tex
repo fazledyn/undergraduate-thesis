@@ -1,0 +1,45 @@
+\chapter{Methodology}\label{methodology}
+
+To classify the different video contents of the influencers collected from Facebook, we employ two approaches. The first approach depends on the interactions of followers and viewers of the page. The second approach relies on the comments posted on the videos' comment section by the viewers regarding their opinion.
+
+
+\section{Interaction Based Approach}
+In this approach, we prioritize different interaction metrics such as the reactions to the videos. Facebook has several reactions such as Likes, Love, Care, Wow, Haha, Angry, and Sad. Each of the reactions conveys different feelings. Since only one type of reaction can be given by an individual, we classify these reactions into two main categories: \textit{positive and negative}.
+
+The approach in this method follows the one employed in this \cite{paper_pratama} paper. In this paper, the authors performed sentiment analysis of Facebook posts through special reactions. The same approach can also be found discussed in this \cite{paper_freeman} paper. In this paper, the authors performed a study on understanding Facebook reactions to different articles.
+
+The reaction-based method uses a score-based system to classify the posts/contents posted on Facebook into two categories. In this approach, the reactions are categorized into two classes, and a metric called \textit{polarity} is calculated based on them. The formula for \textit{polarity} is as followed:
+
+$$ polarity = \frac{n_{positive} - n_{negative}}{n_{positive} + n_{negative}} $$
+
+$$ n_{positive} = Sum\ of\ all\ positive\ reactions\ $$
+$$ n_{negative} = Sum\ of\ all\ negative\ reactions\ $$
+
+
+\begin{table}[]
+    \begin{center}
+        \begin{tabular}{|l|l|}
+        \hline
+            \textbf{Value}                                    & \textbf{Category} \\ \hline
+            -1 \leq \ polarity \textless -0.5  & Class 1  \\ \hline
+            -0.5 \leq \ polarity \textless 0   & Class 2  \\ \hline
+            0 \leq \ polarity \textless 0.5    & Class 3  \\ \hline
+            0.5 \leq \ polarity \leq 1 & Class 4  \\ \hline
+        \end{tabular}
+        \caption{Different classes of polarity based on value}
+        \label{table_polarity}
+    \end{center}
+\end{table}        
+
+Based on the polarity value, we classify the videos into four different categories. The categories are shown in table \ref{table_polarity}
+
+
+
+\section{Natural Language Processing Based Approach}
+To analyze the sentiment of the comments from the viewers, we propose to use a neural network-based machine learning model. Since we are working on the domain of Bangla food review, most of the comments are expected to be in the Bengali language. As a result, we decided to use the BanglaBERT \cite{banglabert} model from the BUET CSE NLP group. BanglaBERT achieves state-of-the-art performances when it comes to Bangla Natural Language Processing tasks.
+
+In this method, we analyze the sentiment of each comment collected from the food review videos. For each video, we determine the positive and negative sentimental comments with the help of the BanglaBERT model. Now, to classify the text sequence, we must train the pre-trained version of the BanglaBERT model. We used three existing datasets for fine-tuning the model. We used the SentNoB dataset\cite{dataset_sentnob} containing Bengali comments from more than 13 different domains. Along with that, we used the ABSA dataset\cite{dataset_absa} containing different labeled comments on different aspects. In addition to these two, we used an online restaurant review dataset found on GitHub\cite{dataset_restaurant}.
+
+We merged the three datasets and only kept the positive and negative labeled comments for training. We balanced the dataset into equal portions and split the dataset into train, test, and validation datasets for fine-tuning purposes. After training the model for further classification tasks, we predicted the comments found in each food review-related video. Based on the class having the highest number of comments, we label the post as belonging to that class.
+
+

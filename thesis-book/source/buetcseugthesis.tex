@@ -1,0 +1,41 @@
+\documentclass[12pt,notitlepage,oneside]{report}
+
+\usepackage{buetcseugthesis}
+\usepackage{amsmath}
+\usepackage{unicode-math}
+\usepackage{usebangla}
+
+% \suppresslistoffigures 
+% \suppresslistoftables
+\suppresslistofalgorithms
+
+% For index creation, comment this out if you do not want to create an
+\makeindex[intoc]
+
+\begin{document}
+
+\printindex
+
+\input{chapter/1_introduction.tex}
+
+\input{chapter/2_related_works.tex}
+
+\input{chapter/3_methodology.tex}
+
+\input{chapter/4_dataset.tex}
+
+\input{chapter/5_preprocessing.tex}
+
+\input{chapter/6_feature_selection.tex}
+
+\input{chapter/7_model_selection.tex}
+
+\input{chapter/8_eval_metrics.tex}
+
+\input{chapter/9_results.tex}
+
+\input{chapter/10_conclusion.tex}
+
+\input{_bibliography.tex}
+
+\end{document}

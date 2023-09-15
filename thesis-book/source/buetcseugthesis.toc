@@ -1,0 +1,42 @@
+\contentsline {chapter}{\textbf {\normalsize {\emph {CANDIDATES' DECLARATION}}}}{i}{DTLrowi.2.1}%
+\contentsline {chapter}{\textbf {\normalsize {\emph {ACKNOWLEDGEMENT}}}}{ii}{DTLrowi.4.1}%
+\contentsline {chapter}{List of Figures}{v}{section*.1}%
+\contentsline {chapter}{List of Tables}{vi}{section*.2}%
+\contentsline {chapter}{\textbf {\normalsize {\emph {ABSTRACT}}}}{vii}{section*.2}%
+\selectlanguage *{english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Food Review Scenario in Bangladesh}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Bangladeshi Top Food Vloggers and influencers}{2}{subsection.1.1.1}%
+\contentsline {subsubsection}{Iftekhar Rafsan}{2}{section*.3}%
+\contentsline {subsubsection}{Fahrin Zannat}{2}{section*.4}%
+\contentsline {subsubsection}{Rasif Shafiq and Ridhima Khan}{3}{section*.5}%
+\contentsline {subsubsection}{Nusrat Islam Nikkita}{3}{section*.6}%
+\contentsline {subsubsection}{Shahriar Rabbir and Kazi Tahsin}{3}{section*.7}%
+\contentsline {section}{\numberline {1.2}Thesis Objective}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Thesis Organization}{4}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Related Works}{6}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Methodology}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Interaction Based Approach}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Natural Language Processing Based Approach}{9}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Dataset Creation}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Interaction Data}{10}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Comment Data}{11}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Preprocessing}{12}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Feature Selection}{13}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Correlation Coeffiecients}{14}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Reaction Classes}{15}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Features for interaction Based Method}{15}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Features for Natural Language Processing Method}{16}{subsection.6.2.2}%
+\contentsline {chapter}{\numberline {7}Model Selection}{17}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Evaluation Metrics}{18}{chapter.8}%
+\contentsline {subsubsection}{Accuracy}{18}{section*.16}%
+\contentsline {subsubsection}{Recall}{18}{section*.17}%
+\contentsline {subsubsection}{Precision}{19}{section*.18}%
+\contentsline {subsubsection}{F1 Score}{19}{section*.19}%
+\contentsline {chapter}{\numberline {9}Results}{20}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Fine-tuning Task}{20}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Natural Language Processing Approach}{21}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Interaction Based Approach}{22}{section.9.3}%
+\contentsline {chapter}{\numberline {10}Conclusion}{24}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Future Work}{24}{section.10.1}%
+\contentsline {chapter}{References}{25}{section.10.1}%
